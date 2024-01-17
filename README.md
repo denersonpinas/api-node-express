@@ -12,3 +12,12 @@ Nessa aula, você aprendeu a:
 - Contextualizar o HTTP nas camadas da Internet;
 - Caracterizar o que é o HTTP, e quais os seus principais componentes;
 - Identificar a arquitetura das comunicações utilizando HTTP.
+
+### Aula 2 - Aprendendo sobre URLs
+
+Nessa aula, você a aprendeu a:
+
+- Identificar uma URL e entender o seu papel no protocolo HTTP;
+- Configurar URLs para utilizar: protocolos, domínios, portas, e caminhos específicos;
+- Utilizar a porta padrão nas URLs com o protocolo HTTP;
+- Usar nomes de domínios (ao invés de endereços IP) para acessar diferentes sites na Web.
