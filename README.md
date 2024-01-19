@@ -49,3 +49,11 @@ Nessa aula, você a aprendeu a:
 - Criar uma rota de documentação no AluraBooks, servindo HTML ao invés de JSON. Para isso, aprendemos:
   - Como informar o formato do conteúdo no corpo de uma mensagem HTTP, através do cabeçalho Content-Type;
   - Como indicar o formato esperado da resposta, através do cabeçalho Accept.
+
+### Aula 6 - Conhecendo as evoluções do HTTP
+
+Nessa aula, você aprendeu a:
+
+- Identificar as limitações do HTTP/1.1, bem como as melhorias trazidas pelo HTTP/2 e HTTP/3;
+- Configurar o HTTP/2 na API do AluraBooks;
+- Verificar que o HTTP/2 está ativo, utilizando a ferramenta de inspeção do navegador, incluindo a verificação de que são utilizadas menos conexões TCP no caso do HTTP/3.
