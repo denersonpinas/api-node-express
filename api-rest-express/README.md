@@ -39,3 +39,19 @@ Nesta aula, você aprendeu:
 - Como implementar um CRUD inicial com os métodos HTTP GET, POST, PUT e DELETE, e como utilizar os métodos do Express para cada método;
 - Como testar requisições com Postman e quais são as partes de uma requisição HTTP;
 - Como utilizar o Express para gerar e enviar respostas adequadas para cada tipo de requisição HTTP.
+
+## Aula 3 - Persistindo dados
+
+Nesta aula, você aprendeu:
+
+- Como os bancos de dados atuam integrados a uma API, guardando os dados recebidos e processados pela API;
+- Quais são as principais diferenças entre tipos de bancos de dados SQL e NoSQL e alguns casos de uso de cada tipo de banco;
+- Como utilizar uma instância gratuita de um banco MongoDB na nuvem através do serviço Mongo Atlas e conectar a instância com a API;
+- Os conceitos de model e schema e qual a função de cada na construção de uma API.
+
+### Para saber mais
+
+Seguem os links para os conteúdos mencionados durante a aula:
+
+- [Documentação oficial do Mongoose](https://mongoosejs.com/) com exemplos, casos de uso e guia de uso da ferramenta.
+- [Prisma](https://www.prisma.io/mongodb), opção como ferramenta de conexão do MongoDB a APIs Node.js. O Prisma pode ser usado com diversos gerenciadores de banco e oferece diversas funcionalidades avançadas.

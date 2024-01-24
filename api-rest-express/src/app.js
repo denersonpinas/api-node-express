@@ -1,27 +1,28 @@
 import express from "express";
+import connectDB from "./config/dbConnect.js";
+import livro from "./models/Livro.js";
+
+const connection = await connectDB();
+
+connection.on("error", (error) => {
+  console.error(`Erro na conexão: ${error}`);
+});
+
+connection.once("open", () => {
+  console.log("Conexão realizada...");
+});
 
 const app = express();
 app.use(express.json()); // Middleware: Executa o express.json em todas as requisições para ser convertido em json
-
-const livros = [
-  {
-    id: 1,
-    titulo: "O Senhor dos Anéis",
-  },
-  {
-    id: 2,
-    titulo: "O Hobbit",
-  },
-];
-
-const buscaLivro = (id) => livros.findIndex((livro) => livro.id === Number(id));
 
 app.get("/", (req, res) => {
   res.status(200).send("Curso de Node.js");
 });
 
-app.get("/livros", (req, res) => {
-  res.status(200).json(livros);
+app.get("/livros", async (req, res) => {
+  const listaLivros = await livro.find({});
+
+  res.status(200).json(listaLivros);
 });
 
 app.get("/livros/:id", (req, res) => {
