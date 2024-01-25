@@ -55,3 +55,19 @@ Seguem os links para os conteúdos mencionados durante a aula:
 
 - [Documentação oficial do Mongoose](https://mongoosejs.com/) com exemplos, casos de uso e guia de uso da ferramenta.
 - [Prisma](https://www.prisma.io/mongodb), opção como ferramenta de conexão do MongoDB a APIs Node.js. O Prisma pode ser usado com diversos gerenciadores de banco e oferece diversas funcionalidades avançadas.
+
+## Aula 4 - Evoluindo a API
+
+Nesta aula, você aprendeu:
+
+- A organizar a estrutura do código de um projeto de API utilizando o padrão chamado controller;
+- A evoluir as funcionalidades da API organizando as chamadas da lib Mongoose em métodos separados em um controller;
+- A praticar a implementação do CRUD (Create, Read, Update e Delete) com as respostas HTTP e as rotas correspondentes.
+
+### Para saber mais
+
+Seguem links para os conteúdos mencionados durante a aula:
+
+- [Curso de Programação orientada a objetos com JavaScript](https://cursos.alura.com.br/course/javascript-passos-programacao-orientada-objetos), com os primeiros passos para a aplicação de conceitos e práticas da Orientação a Objetos em projetos JavaScript, incluindo a criação e o funcionamento das classes;
+- [Documentação do MongoDB sobre modelagem de dados](https://www.mongodb.com/docs/manual/data-modeling/), com mais informações sobre embedding e reference;
+- [Documentação do Mongoose sobre o método](https://mongoosejs.com/docs/api/model.html#Model.findByIdAndUpdate%28%29) [findByIdAndUpdate](https://mongoosejs.com/docs/api/model.html#Model.findByIdAndUpdate%28%29).
