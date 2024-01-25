@@ -71,3 +71,11 @@ Seguem links para os conteúdos mencionados durante a aula:
 - [Curso de Programação orientada a objetos com JavaScript](https://cursos.alura.com.br/course/javascript-passos-programacao-orientada-objetos), com os primeiros passos para a aplicação de conceitos e práticas da Orientação a Objetos em projetos JavaScript, incluindo a criação e o funcionamento das classes;
 - [Documentação do MongoDB sobre modelagem de dados](https://www.mongodb.com/docs/manual/data-modeling/), com mais informações sobre embedding e reference;
 - [Documentação do Mongoose sobre o método](https://mongoosejs.com/docs/api/model.html#Model.findByIdAndUpdate%28%29) [findByIdAndUpdate](https://mongoosejs.com/docs/api/model.html#Model.findByIdAndUpdate%28%29).
+
+## Aula 5 - Adicionando Funcionalidade
+
+Nesta aula, você aprendeu:
+
+- A evoluir as funcionalidades de uma API, unindo diferentes entidades como livro e autor;
+- Como funciona o relacionamento em um banco de objetos como MongoDB utilizando o modelo de embedding;
+- Como realizar buscas em API via parâmetros de query.
